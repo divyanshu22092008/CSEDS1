@@ -1,0 +1,23 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f47c7c;
+}
+h1{
+    color: #9eebb9e8;
+    text-align: center;
+    padding: 20px;
+}
+p{
+    color: #333333;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 20px;
+}
+#dm1{
+    width: 100%;
+    font-size: small;
+    color:rgb(92, 63, 166)
+
+}

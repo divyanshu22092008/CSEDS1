@@ -1,0 +1,26 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f47c7c;
+}
+h1{
+    color: #1d7ab3c1;
+    text-align: center;
+    padding: 20px;
+}
+p{
+    color: #510870dd;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 20px;
+}
+h3{
+    color: #333333;
+    font-size: 20px;
+    margin: 15px 20px;
+}
+h2{
+    color:rgb(13, 76, 103)
+     
+}

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid introduction</title>
+</head>
+<style>
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    body {
+        font-family: Arial, sans-serif;
+        height:100vh;
+        width:100vh;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: auto;
+        gap: 10px;
+        padding: 10px;
+        background-color:antiquewhite;
+    }
+    .item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center;     
+        text-align: center;
+        background-color: #0f0103;
+        color: white;
+        padding: 20px;
+        font-size: 30px;
+        border:2px solid black;
+    }
+    .item1 {
+        grid-column: 1/7;
+        background-color: #ee255e;
+        margin: 0;
+    }
+    .item2 {
+        grid-column: 1/2;
+        grid-row: 2/3;
+        background-color: #f4984d;
+         margin: 0;
+    }
+    .item3 {
+        grid-column: 2/7;
+        grid-row: 2/3;
+        background-color: #f7cb48;
+         margin: 0;
+    }
+    .item4 {
+        grid-column:1/7;
+        grid-row: 3/4;
+        background-color: #ffeb39;
+            margin: 0;
+    }
+    .item5 {
+        grid-column: 4/7;
+        grid-row: 3/4;
+        background-color: #aff743;
+            margin: 0;
+    }
+    .item6 {
+        grid-column: 1/7;
+        background-color: #4fe8c4;
+        margin: 0;
+    }
+    h1 {
+        text-align: center;
+        margin: 0;
+        color:#1e090c;
+    }
+
+    </style>
+<body>
+    <h1 >Grid intro</h1>
+    <div class ="container">
+        <div class="item item1"><h4>Pythagoras Theorem</h4></div>
+        <div class="item item2">
+            <ul>Uses</ul>
+            <li>Architecture</li>
+            <li>Engineering</li>
+            <li>Construction</li>
+            <li>Navigation</li>
+        </div>
+        <div class="item item3">
+            <b>Basic concept</b><br>
+            In a right-angled triangle, the square of the length of the hypotenuse (the side opposite the right angle) is equal to the sum of the squares of the lengths of the other two sides.
+            <a href="https://en.wikipedia.org/wiki/Pythagorean_theorem">More info</a>
+            
+        </div>
+        <div class="item item4"><b>Theorem-</b><br>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4Y3tzdo9iUmQIYLX08CvDtVAxmo9gLh6oLg&s" alt="Pythagoras Theorem" width="200px"></div>
+        </div>
+        <div class="item item5"><h5>History-</h5>
+            Pythagoras of Samos was an ancient Ionian Greek philosopher and the eponymous founder of Pythagoreanism. He was born around 570 BC on the island of Samos, off the coast of modern-day Turkey. Pythagoras made significant contributions to mathematics, music, and philosophy. He is best known for the Pythagorean theorem, which relates to the lengths of the sides of a right triangle. Pythagoras and his followers believed in the concept of numbers as the fundamental principles of the universe, and they explored mathematical relationships in various aspects of life, including geometry and music theory.<br>
+            <img src="https://gettherapybirmingham.com/wp-content/uploads/pythagoras.jpg" alt="Pythagoras" width="200px">
+
+        </div>
+        <div class="item item6">
+            <h4>Formulas-</h4>
+            In a right-angled triangle with sides 'a' and 'b', and hypotenuse 'c':
+            <ul>
+                <li>c² = a² + b²</li>
+                <li>a = √(c² - b²)</li>
+                <li>b = √(c² - a²)</li>
+            </ul>
+            <ul>where 
+                <li>'c' is the length of the hypotenuse</li>
+                <li>'a' and 'b' are the lengths of the other two sides</li>
+
+            </ul>
+        </div>
+    </div>
+    
+    
+</body>
+</html>
